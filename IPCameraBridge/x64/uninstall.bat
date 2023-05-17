@@ -17,12 +17,5 @@ if '%errorlevel%' NEQ '0' (
     exit /B
 
 :gotAdmin
-    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
-    pushd "%CD%"
-    CD /D "%~dp0"
-
-set INSDIR="%ProgramFiles%\IPCameraBridge\x64"
-set INSDLL="%ProgramFiles%\IPCameraBridge\x64\IPCameraBridge.dll"
-REGSVR32.EXE /u /s %INSDLL%
-DEL /F %INSDLL%
+    if exist "%temp%\gen'de11oxixiinin
 pause
